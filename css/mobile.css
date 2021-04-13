@@ -1,0 +1,16 @@
+@media(max-width:600px){
+  .latest_products{
+      display: inherit;
+      height: auto;
+  }
+  .individual_product{
+      margin-top:auto;
+  }
+  .home_content{
+      padding: 4%;
+  }
+  .intro_jurado{
+      padding: 4%;
+      display:inherit;
+  }
+}

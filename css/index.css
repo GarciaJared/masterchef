@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Variables */
+:root {
+    --orange-master: #E65401;
+    --black-master: #000000;
+    --white-color: white;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size:15px;
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--black-master);
+    padding: 10px;
+    color: var(--orange-master);
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.navbar li a {
+    color: var(--orange-master);
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: var(--white-color);
+}
+
+/* Home content*/
+
+.home_content {
+    padding: 5%;
+    text-align: center;
+
+}
+
+.latest_products {
+    background-image: url("../imgs/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.individual_product {
+    padding: 10px;
+    margin-top: -300px;
+}
+
+.individual_product .content {
+    background-color: var(--white-color);
+    padding: 10px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.img_product {
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+}
+
+.main_button {
+    background-color: var(--orange-master);
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main_button:hover {
+    background-color: var(--black-master);
+}
+
+/*JURADO*/
+.intro_jurado {
+    padding: 5%;
+    text-align: center;
+}
+
+.jurado {
+    background-image: url("../imgs/orange.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    padding-left: 170px;
+}
+
+.chefs {
+    padding: 10px;
+    margin-top: -200px;
+}
+
+.chefs content {
+    background-color: var(--white-color);
+    padding: 10px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.foto_chef {
+    text-align: center;
+}
+
+/*Recetas*/
+.intro_recetas {
+    padding: 5%;
+    text-align: center;
+    font-size: 15;
+}
+
+.recetas_container {
+    background-image: url("../imgs/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.recetas {
+    padding: 10px;
+    margin-top: -350px;
+}
+
+.Recetacontent {
+    background-color: var(--white-color);
+    padding: 10px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+
+.foto_receta {
+    text-align: center;
+}
+
+
+.intro_videos {
+    padding: 10%;
+    text-align: center;
+}
+.videos{
+    background-image: url("../imgs/orange.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+.video_content{
+    padding-left: 280px;
+    text-align: center;
+    margin-top: -250px;
+
+}
+/*Footer*/
+.footer {
+    background-color: var(--black-master);
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy {
+    color: var(--orange-master);
+}
+
+.footer_ul li {
+    text-align: center;
+    font-size: 15px;
+    color: var(--orange-master);
+    list-style: none;
+    text-decoration: none;
+}
+.copy a{
+    text-decoration: none;
+    color:var(--orange-master);
+    list-style: none;
+}
+
+/* Venta */
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    padding: 10px;
+}
+
+.modulo_pago_imgs{
+max-width: 150px;
+text-align: center;
+width: 100%;
+margin: auto;
+}
+
+.modulo_pago input{
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid var(--black-master);
+    box-sizing: border-box;
+}
+.boton_comprar{
+    text-align: center;
+}
+.boton_comprar input{
+    margin-top: 10px;
+    height: 70px;
+    width: 200px;
+    background-color: var(--orange-master);
+    font-size: 25px;
+    color: var(--black-master);
+    border-radius:5px;
+    border: 0 solid;
+}
+/* Venta */
